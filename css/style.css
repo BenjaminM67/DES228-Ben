@@ -13,7 +13,8 @@ go ahead and play with these, can you get the colors to change? What do you noti
 
 body {
 
-    color: #26241C;
-    background-color: #F2F0D8;
+    color: #000000;
+    background: linear-gradient(to right, #006847, #ffffff, #ce1126);
+    /* I got this background from an assignmeent I previously did where we created portfolios. It's a linear gradient using the mexican flag colors. It's a feature that also represents who I am and having it as my background is a way to keep that in mind when peering into my work. */
 }
 
