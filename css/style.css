@@ -36,6 +36,10 @@ a {
     color: #ce1126;
     text-shadow: 0px 0px 0px #000000;
     text-decoration: none;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;                       /* Allows rows to break after 3 items */
+    justify-content: space-between;
 }
 
 a:hover {
@@ -49,4 +53,24 @@ h1 {
     text-shadow: 0px 0px 0px #000000;
     text-decoration: none;
     text-align: center;
+}
+
+.link-container {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;                       /* Allows rows to break after 3 items */
+    justify-content: space-between;
+    gap: 15px;
+    width: 100%;
+}
+
+.link-container a {
+    flex: 0 1 calc(33.33% - 15px);
+    padding: 2%;
+    background-color: #ffffff;
+    color: #ce1126;
+    text-align: center;
+    font-size: 35px;
+    border-radius: 8px;
+    text-decoration: none;
 }

@@ -29,7 +29,9 @@ body {
     font-family: 'Libre Franklin', sans-serif;
     color: #ffffff;
     background-color: #006847;
-    
+    display: flex;
+    flex-direction: column;
+
 }
 
 a {
@@ -53,7 +55,7 @@ h1 {
 h1 {
     font-family: 'Playwrite MX', sans-serif;
     color: #ffffff;
-    text-shadow: 1px 1px 1px #ce1126;
+    text-shadow: 1px 1px 1px #000000;
     text-decoration: none;
     text-align: center;
 }
