@@ -29,7 +29,7 @@ body {
     font-family: 'Libre Franklin', sans-serif;
     color: #ffffff;
     background-color: #006847;
-    
+    margin: 0 auto;
 }
 
 a {
@@ -38,7 +38,7 @@ a {
     text-decoration: none;
     display: flex;
     flex-direction: column;
-    flex-wrap: wrap;                       /* Allows rows to break after 3 items */
+    flex-wrap: wrap;
     justify-content: space-between;
 }
 
@@ -58,18 +58,20 @@ h1 {
 .link-container {
     display: flex;
     flex-direction: row;
-    flex-wrap: wrap;                       /* Allows rows to break after 3 items */
+    flex-wrap: wrap;
     justify-content: space-between;
     gap: 15px;
     width: 100%;
 }
 
 .link-container a {
-    flex: 0 1 calc(33.33% - 15px);
+    flex: 0 1 calc(31% - 15px);
     padding: 2%;
     background-color: #ffffff;
     color: #ce1126;
     text-align: center;
+    margin-left: 1%;
+    margin-right: 1%;
     font-size: 35px;
     border-radius: 8px;
     text-decoration: none;
