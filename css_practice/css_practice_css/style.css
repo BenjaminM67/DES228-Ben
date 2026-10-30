@@ -27,7 +27,7 @@ go ahead and play with these, can you get the colors to change? What do you noti
 
 body {
     font-family: 'Libre Franklin', sans-serif;
-    color: #000000;
+    color: #ffffff;
     display: flex;
     flex-direction: column;
     background-color: #006847;
