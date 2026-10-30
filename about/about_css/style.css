@@ -9,14 +9,14 @@ for now, you can leave these alone */
 
 @font-face {
     font-family: 'Playwrite MX';
-    src: url('../fonts/PlaywriteMX-VariableFont_wght.ttf') format('truetype');
+    src: url('../../fonts/PlaywriteMX-VariableFont_wght.ttf') format('truetype');
     font-style: normal;
     fint-display: swap;
 }
 
 @font-face {
     font-family: 'Libre Franklin';
-    src: url('../fonts/LibreFranklin-VariableFont_wght.ttf') format('truetype');
+    src: url('../../fonts/LibreFranklin-VariableFont_wght.ttf') format('truetype');
     font-style: normal;
     font-display: swap;
 }
